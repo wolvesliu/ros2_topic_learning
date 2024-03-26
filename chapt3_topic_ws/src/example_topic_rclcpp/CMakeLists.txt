@@ -37,3 +37,6 @@ install(TARGETS topic_publisher_01_node
 install(TARGETS topic_subscriber_01_node
   DESTINATION lib/${PROJECT_NAME}
 )
+
+install(DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME})

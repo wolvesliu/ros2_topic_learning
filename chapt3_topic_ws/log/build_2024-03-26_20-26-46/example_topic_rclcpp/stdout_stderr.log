@@ -32,16 +32,21 @@
 -- Added test 'cppcheck' to perform static code analysis on C / C++ code
 -- Configured cppcheck include dirs: 
 -- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
 -- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
 -- Added test 'uncrustify' to check C / C++ code style
 -- Configured uncrustify additional arguments: 
 -- Added test 'xmllint' to check XML markup files
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/build/example_topic_rclcpp
-[ 50%] [32mBuilding CXX object CMakeFiles/topic_publisher_01_node.dir/src/topic_publisher_01_node.cpp.o[0m
-[100%] [32m[1mLinking CXX executable topic_publisher_01_node[0m
-[100%] Built target topic_publisher_01_node
+[ 25%] [32mBuilding CXX object CMakeFiles/topic_publisher_01_node.dir/src/topic_publisher_01_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable topic_publisher_01_node[0m
+[ 50%] Built target topic_publisher_01_node
+[ 75%] [32mBuilding CXX object CMakeFiles/topic_subscriber_01_node.dir/src/topic_subscriber_01_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable topic_subscriber_01_node[0m
+[100%] Built target topic_subscriber_01_node
 -- Install configuration: ""
 -- Installing: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_topic_rclcpp
 -- Installing: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_topic_rclcpp
@@ -60,3 +65,7 @@
 -- Installing: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.xml
 -- Installing: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01_node
 -- Set runtime path of "/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01_node" to ""
+-- Installing: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscriber_01_node
+-- Set runtime path of "/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscriber_01_node" to ""
+-- Installing: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/launch
+-- Installing: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/launch/example_action.launch.py

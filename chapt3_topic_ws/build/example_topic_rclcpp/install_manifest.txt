@@ -15,3 +15,4 @@
 /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.xml
 /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01_node
 /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscriber_01_node
+/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/launch/example_action.launch.py
