@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.000537] (example_topic_rclcpp) JobQueued: {'identifier': 'example_topic_rclcpp', 'dependencies': OrderedDict()}
+[0.000673] (example_topic_rclcpp) JobStarted: {'identifier': 'example_topic_rclcpp'}
+[0.005439] (example_topic_rclcpp) JobProgress: {'identifier': 'example_topic_rclcpp', 'progress': 'cmake'}
+[0.007060] (example_topic_rclcpp) JobProgress: {'identifier': 'example_topic_rclcpp', 'progress': 'build'}
+[0.007932] (example_topic_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/build/example_topic_rclcpp', '--', '-j2', '-l2'], 'cwd': '/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/build/example_topic_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'max'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/max'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1516'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'max'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'max'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maxubuntu:@/tmp/.ICE-unix/1152,unix/maxubuntu:/tmp/.ICE-unix/1152'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6398bb39_c9ad_4c61_8a34_294188be27fa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HL9ZK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-60e2c775c5.sock'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/build/example_topic_rclcpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp:/opt/ros/humble')]), 'shell': False}
+[0.086019] (example_topic_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target topic_subscriber_01_node\x1b[0m\n'}
+[0.096072] (-) TimerEvent: {}
+[0.123820] (example_topic_rclcpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/topic_subscriber_01_node.dir/src/topic_subscriber_01_node.cpp.o\x1b[0m\n'}
+[0.140080] (example_topic_rclcpp) StdoutLine: {'line': b'[ 75%] Built target topic_publisher_01_node\n'}
+[0.198703] (-) TimerEvent: {}
+[0.309057] (-) TimerEvent: {}
+[0.415314] (-) TimerEvent: {}
+[0.516594] (-) TimerEvent: {}
+[0.618175] (-) TimerEvent: {}
+[0.723060] (-) TimerEvent: {}
+[0.823562] (-) TimerEvent: {}
+[0.925195] (-) TimerEvent: {}
+[1.026546] (-) TimerEvent: {}
+[1.128288] (-) TimerEvent: {}
+[1.233981] (-) TimerEvent: {}
+[1.334711] (-) TimerEvent: {}
+[1.435596] (-) TimerEvent: {}
+[1.538096] (-) TimerEvent: {}
+[1.639198] (-) TimerEvent: {}
+[1.745563] (-) TimerEvent: {}
+[1.846761] (-) TimerEvent: {}
+[1.960442] (-) TimerEvent: {}
+[2.061283] (-) TimerEvent: {}
+[2.161926] (-) TimerEvent: {}
+[2.262560] (-) TimerEvent: {}
+[2.363084] (-) TimerEvent: {}
+[2.463604] (-) TimerEvent: {}
+[2.564112] (-) TimerEvent: {}
+[2.664632] (-) TimerEvent: {}
+[2.765302] (-) TimerEvent: {}
+[2.868857] (-) TimerEvent: {}
+[2.969528] (-) TimerEvent: {}
+[3.070301] (-) TimerEvent: {}
+[3.175567] (-) TimerEvent: {}
+[3.276397] (-) TimerEvent: {}
+[3.385726] (-) TimerEvent: {}
+[3.490852] (-) TimerEvent: {}
+[3.591781] (-) TimerEvent: {}
+[3.700709] (-) TimerEvent: {}
+[3.805335] (-) TimerEvent: {}
+[3.910674] (-) TimerEvent: {}
+[4.011520] (-) TimerEvent: {}
+[4.117410] (-) TimerEvent: {}
+[4.224140] (-) TimerEvent: {}
+[4.327637] (-) TimerEvent: {}
+[4.431518] (-) TimerEvent: {}
+[4.532022] (-) TimerEvent: {}
+[4.638699] (-) TimerEvent: {}
+[4.739617] (-) TimerEvent: {}
+[4.840605] (-) TimerEvent: {}
+[4.943558] (-) TimerEvent: {}
+[5.044719] (-) TimerEvent: {}
+[5.145990] (-) TimerEvent: {}
+[5.246705] (-) TimerEvent: {}
+[5.347541] (-) TimerEvent: {}
+[5.448152] (-) TimerEvent: {}
+[5.548891] (-) TimerEvent: {}
+[5.649861] (-) TimerEvent: {}
+[5.750551] (-) TimerEvent: {}
+[5.851433] (-) TimerEvent: {}
+[5.952493] (-) TimerEvent: {}
+[6.053250] (-) TimerEvent: {}
+[6.153701] (-) TimerEvent: {}
+[6.254335] (-) TimerEvent: {}
+[6.354954] (-) TimerEvent: {}
+[6.455798] (-) TimerEvent: {}
+[6.556491] (-) TimerEvent: {}
+[6.657009] (-) TimerEvent: {}
+[6.757576] (-) TimerEvent: {}
+[6.858178] (-) TimerEvent: {}
+[6.958835] (-) TimerEvent: {}
+[7.059292] (-) TimerEvent: {}
+[7.159822] (-) TimerEvent: {}
+[7.260436] (-) TimerEvent: {}
+[7.361173] (-) TimerEvent: {}
+[7.461719] (-) TimerEvent: {}
+[7.562249] (-) TimerEvent: {}
+[7.663135] (-) TimerEvent: {}
+[7.763818] (-) TimerEvent: {}
+[7.864405] (-) TimerEvent: {}
+[7.965228] (-) TimerEvent: {}
+[8.065628] (-) TimerEvent: {}
+[8.166242] (-) TimerEvent: {}
+[8.266703] (-) TimerEvent: {}
+[8.367620] (-) TimerEvent: {}
+[8.468123] (-) TimerEvent: {}
+[8.568642] (-) TimerEvent: {}
+[8.669215] (-) TimerEvent: {}
+[8.769931] (-) TimerEvent: {}
+[8.870461] (-) TimerEvent: {}
+[8.971151] (-) TimerEvent: {}
+[9.071809] (-) TimerEvent: {}
+[9.172331] (-) TimerEvent: {}
+[9.272797] (-) TimerEvent: {}
+[9.373593] (-) TimerEvent: {}
+[9.474105] (-) TimerEvent: {}
+[9.574633] (-) TimerEvent: {}
+[9.675381] (-) TimerEvent: {}
+[9.775925] (-) TimerEvent: {}
+[9.876781] (-) TimerEvent: {}
+[9.977657] (-) TimerEvent: {}
+[10.078386] (-) TimerEvent: {}
+[10.179231] (-) TimerEvent: {}
+[10.279715] (-) TimerEvent: {}
+[10.282036] (example_topic_rclcpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable topic_subscriber_01_node\x1b[0m\n'}
+[10.380396] (-) TimerEvent: {}
+[10.481347] (-) TimerEvent: {}
+[10.581819] (-) TimerEvent: {}
+[10.682184] (-) TimerEvent: {}
+[10.782697] (-) TimerEvent: {}
+[10.883276] (-) TimerEvent: {}
+[10.984464] (-) TimerEvent: {}
+[11.085463] (-) TimerEvent: {}
+[11.097831] (example_topic_rclcpp) StdoutLine: {'line': b'[100%] Built target topic_subscriber_01_node\n'}
+[11.130434] (example_topic_rclcpp) CommandEnded: {'returncode': 0}
+[11.182881] (example_topic_rclcpp) JobProgress: {'identifier': 'example_topic_rclcpp', 'progress': 'install'}
+[11.185811] (-) TimerEvent: {}
+[11.200024] (example_topic_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/build/example_topic_rclcpp'], 'cwd': '/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/build/example_topic_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'max'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/max'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1516'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'max'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'max'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maxubuntu:@/tmp/.ICE-unix/1152,unix/maxubuntu:/tmp/.ICE-unix/1152'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6398bb39_c9ad_4c61_8a34_294188be27fa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HL9ZK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-60e2c775c5.sock'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/build/example_topic_rclcpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp:/opt/ros/humble')]), 'shell': False}
+[11.218494] (example_topic_rclcpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.220806] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_topic_rclcpp\n'}
+[11.221368] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_topic_rclcpp\n'}
+[11.221531] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.sh\n'}
+[11.221771] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.dsv\n'}
+[11.221875] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.sh\n'}
+[11.221963] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.dsv\n'}
+[11.224105] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.bash\n'}
+[11.224310] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.sh\n'}
+[11.224468] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.zsh\n'}
+[11.224551] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.dsv\n'}
+[11.224664] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.dsv\n'}
+[11.225026] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/ament_index/resource_index/packages/example_topic_rclcpp\n'}
+[11.225241] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig.cmake\n'}
+[11.225335] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig-version.cmake\n'}
+[11.225414] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.xml\n'}
+[11.228654] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01_node\n'}
+[11.230031] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscriber_01_node\n'}
+[11.237720] (example_topic_rclcpp) StdoutLine: {'line': b'-- Set runtime path of "/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscriber_01_node" to ""\n'}
+[11.244718] (example_topic_rclcpp) CommandEnded: {'returncode': 0}
+[11.286853] (-) TimerEvent: {}
+[11.357379] (example_topic_rclcpp) JobEnded: {'identifier': 'example_topic_rclcpp', 'rc': 0}
+[11.359278] (-) EventReactorShutdown: {}

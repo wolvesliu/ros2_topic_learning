@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/build/example_topic_rclcpp -- -j2 -l2
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target topic_subscriber_01_node[0m
+[0.123s] [ 25%] [32mBuilding CXX object CMakeFiles/topic_subscriber_01_node.dir/src/topic_subscriber_01_node.cpp.o[0m
+[0.139s] [ 75%] Built target topic_publisher_01_node
+[10.281s] [100%] [32m[1mLinking CXX executable topic_subscriber_01_node[0m
+[11.097s] [100%] Built target topic_subscriber_01_node
+[11.130s] Invoked command in '/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/build/example_topic_rclcpp -- -j2 -l2
+[11.201s] Invoking command in '/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/build/example_topic_rclcpp
+[11.218s] -- Install configuration: ""
+[11.220s] -- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_topic_rclcpp
+[11.221s] -- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_topic_rclcpp
+[11.221s] -- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.sh
+[11.221s] -- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.dsv
+[11.221s] -- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.sh
+[11.221s] -- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.dsv
+[11.224s] -- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.bash
+[11.224s] -- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.sh
+[11.224s] -- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.zsh
+[11.224s] -- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.dsv
+[11.224s] -- Installing: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.dsv
+[11.224s] -- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/ament_index/resource_index/packages/example_topic_rclcpp
+[11.225s] -- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig.cmake
+[11.225s] -- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig-version.cmake
+[11.225s] -- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.xml
+[11.228s] -- Up-to-date: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01_node
+[11.229s] -- Installing: /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscriber_01_node
+[11.237s] -- Set runtime path of "/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscriber_01_node" to ""
+[11.246s] Invoked command in '/home/max/ros2fish/chapt3_topic/chapt3_topic_ws/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/max/ros2fish/chapt3_topic/chapt3_topic_ws/build/example_topic_rclcpp
